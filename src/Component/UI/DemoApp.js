@@ -28,7 +28,7 @@ const DemoApp=(props)=>{
     return(
         <div >
             { sortList ? x:y}
-        <Button Name='decending order' onClick={onchangerOrder}></Button>
+        <Button Name='descending order' onClick={onchangerOrder}></Button>
         </div>
     )
 }
